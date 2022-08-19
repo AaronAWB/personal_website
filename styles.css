@@ -1,7 +1,56 @@
 .image_container {
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .text_container {
     text-align: center;
+}
+
+#contact {
+    padding: 40px;
+}
+
+header {
+    background-color: darkblue;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.current {
+    background-color: #4682b4;
+    color: white
+}
+
+.new:hover {
+    background-color: #F4EBD0
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
 }
