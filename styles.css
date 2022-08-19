@@ -1,3 +1,7 @@
-.container {
+.image_container {
+    text-align: center;
+}
+
+.text_container {
     text-align: center;
 }
